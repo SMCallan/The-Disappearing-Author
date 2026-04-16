@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# The Disappearing Author
 
-## Getting Started
+**Live Application:** [the-disappearing-author.pages.dev](https://the-disappearing-author.pages.dev)
 
-First, run the development server:
+## Overview
+The Disappearing Author is a modern, web-based practitioner's guide to stripping AI linguistic fingerprints from generated text. It serves as a reference tool for "friction engineering," providing users with actionable strategies, lexical markers, and a master system prompt to force Large Language Models (LLMs) into outputting more human, statistically unpredictable prose.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project was built to deliver a premium, minimalist SaaS aesthetic while remaining highly performant and fully accessible.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
+* **Framework:** Next.js (App Router)
+* **Language:** TypeScript / React
+* **Styling:** Tailwind CSS 
+* **UI Components:** shadcn/ui (Radix Primitives)
+* **Icons:** Lucide React
+* **Deployment:** Cloudflare Pages
+* **Version Control:** Git & GitHub
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Engineering & Architecture
+* **Component-Driven Design:** Transitioned from a legacy monolithic HTML/CSS structure to a modular, component-based React architecture using `shadcn/ui` for maintainability and scalability.
+* **Static Site Generation (SSG):** Configured Next.js for static HTML export (`output: 'export'`), stripping away unnecessary server-side rendering overhead for a purely static, lightning-fast application.
+* **Continuous Deployment (CI/CD):** Integrated the GitHub repository directly with Cloudflare Pages. Every push to the `main` branch automatically triggers a new edge build and deployment.
+* **Modern UI/UX:** Engineered a dark-mode-first interface utilizing custom linear gradients, soft drop shadows, and high-contrast typography to achieve an "expensive", minimalist aesthetic. Implemented interactive state management for a seamless copy-to-clipboard functionality.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Local Development
+To run this project locally:
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/SMCallan/The-Disappearing-Author.git](https://github.com/SMCallan/The-Disappearing-Author.git)
